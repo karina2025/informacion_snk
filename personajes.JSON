@@ -1,0 +1,71 @@
+[
+    {
+      "_id": 1,
+      "nombre": "Eren Yeager",
+      "rol": "protagonista",
+      "habilidades": ["Titán de Ataque", "Titán Fundador", "regeneración"],
+      "afiliacion": "Exploradores",
+      "estado": "muerto",
+      "muralla": "Maria",
+      "padres": { "padre": "muerto", "madre": "muerta" }
+    },
+    {
+      "_id": 2,
+      "nombre": "Levi Ackerman",
+      "rol": "capitán",
+      "habilidades": ["espadas", "velocidad", "estrategia"],
+      "afiliacion": "Exploradores",
+      "estado": "vivo",
+      "muralla": "Subterráneo de Sina",
+      "padres": { "padre": "muerto", "madre": "muerta" }
+    },
+    {
+      "_id": 3,
+      "nombre": "Hange Zoë",
+      "rol": "comandante",
+      "habilidades": ["inteligencia", "experimentación", "liderazgo"],
+      "afiliacion": "Exploradores",
+      "estado": "muerta",
+      "muralla": "Rose",
+      "padres": { "padre": "desconocido", "madre": "desconocido" }
+    },
+    {
+      "_id": 4,
+      "nombre": "Armin Arlert",
+      "rol": "estratega",
+      "habilidades": ["Titán Colosal", "táctica", "negociación"],
+      "afiliacion": "Exploradores",
+      "estado": "vivo",
+      "muralla": "Maria",
+      "padres": { "padre": "muerto", "madre": "muerta" }
+    },
+    {
+      "_id": 5,
+      "nombre": "Mikasa Ackerman",
+      "rol": "guerrera",
+      "habilidades": ["fuerza", "instintos Ackerman", "reflejos"],
+      "afiliacion": "Exploradores",
+      "estado": "viva",
+      "muralla": "Maria",
+      "padres": { "padre": "muerto", "madre": "muerta" }
+    },
+    {
+      "_id": 6,
+      "nombre": "Sasha Blouse",
+      "rol": "francotiradora",
+      "habilidades": ["puntería", "sigilo", "sentido del olfato"],
+      "afiliacion": "Exploradores",
+      "estado": "muerta",
+      "muralla": "Rose",
+      "padres": { "padre": "vivo", "madre": "viva" }
+    },
+    {
+      "_id": 7,
+      "nombre": "Connie Springer",
+      "rol": "soldado",
+      "habilidades": ["agilidad", "lealtad", "humor"],
+      "afiliacion": "Exploradores",
+      "estado": "vivo",
+      "muralla": "Rose",
+      "padres": { "padre": "muerto", "madre": "muerta" }
+    }]

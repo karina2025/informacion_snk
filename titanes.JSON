@@ -1,0 +1,82 @@
+[
+    {
+    "_id": 1,
+    "portador": "Ymir Fritz",
+    "habilidades": ["regeneración", "resistencia", "poder especial fundador"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+ },
+{
+    "_id": 1,
+    "portador": "Eren Yeager",
+    "habilidades": ["regeneración", "resistencia", "poder especial ataque"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+  },
+  {
+    "_id": 1,
+    "portador": "Armin Arlert",
+    "habilidades": ["regeneración", "resistencia", "poder especial colosal"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+  },
+  {
+    "_id": 1,
+    "portador": "Lara Tybur",
+    "habilidades": ["regeneración", "resistencia", "poder especial martillo"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+  },
+  {
+    "_id": 1,
+    "portador": "Zeke Yeager",
+    "habilidades": ["regeneración", "resistencia", "poder especial bestia"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+  },
+  {
+    "_id": 1,
+    "portador": "Annie Leonhart",
+    "habilidades": ["regeneración", "resistencia", "poder especial mujer"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+  },
+  {
+    "_id": 1,
+    "portador": "Reiner Braun",
+    "habilidades": ["regeneración", "resistencia", "poder especial acorazado"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+  },
+  {
+    "_id": 1,
+    "portador": "Porco Galliard",
+    "habilidades": ["regeneración", "resistencia", "poder especial mandibula"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+  },
+  {
+    "_id": 1,
+    "portador": "Pieck Finger",
+    "habilidades": ["regeneración", "resistencia", "poder especial carreta"],
+    "origen": "Eldia",
+    "estado": "activo",
+    "transformaciones": 1
+  }]
+  
+  
+  
+  
+  
+  
+  
+  
+  
