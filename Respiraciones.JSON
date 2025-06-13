@@ -1,0 +1,82 @@
+[
+    {
+        "_id": 1,
+        "respiracion": "Respiracion De Agua",
+        "primera_postura": "Corte de la Superficie del Agua",
+        "segunda_postura": "Rueda de Agua",
+        "tercera_postura": "Danza de las Corrientes",
+        "cuarta_porstura": "Golpe de Marea",
+        "quinta_postura": "Lluvia tras la Sequía",
+        "sexta_postura": "Remolino",
+        "septima_postura": "Estocada de Ondas Concéntricas",
+        "octava_postura": "Cuenca de Cascada",
+        "novena_postura": "Salpicadura Caótica",
+        "decima_postura": "El dragón del Cambio",
+        "undecima_postura": "Calma"
+    },
+    {
+        "_id": 2,
+        "respiracion": "Respiracion Solar",
+        "primera_postura": "Vals Relámpago",
+        "segunda_postura": "Cielo Azul",
+        "tercera_postura": "Espejo Carmesí Sofocante",
+        "cuarta_porstura": "Parhelio Arcoíris",
+        "quinta_postura": "Rueda de Fuego",
+        "sexta_postura": "Sol Abrasante",
+        "septima_postura": "Lanza de Girasol ",
+        "octava_postura": "Inmensa Bruma Llameante",
+        "novena_postura": "Puesta de Sol",
+        "decima_postura": "Luz Brillante de Gratitud",
+        "undecima_postura": "CalmaHalo Solar del Dragón",
+        "decimo_segunda_postura": "Vals Flameante",
+        "decimo_tercera_postura": "el usuario realiza continuamente las doce posturas de la respiración de forma repetitiva para aumentar la precisión y la agilidad de sus propios movimientos. Esta postura fue creada exclusivamente para matar a Muzan Kibutsuji."
+    },
+    {
+        "_id": 3,
+        "respiracion": "Respiracion Del Rayo"
+    },
+    {
+        "_id": 4,
+        "respiracion": "Respiracion De la Bestia"
+    },
+    {
+        "_id": 5,
+        "respiracion": "Respiracion Del Insecto"
+    },
+    {
+        "_id": 6,
+        "respiracion": "Respiracion De la Llama"
+    },
+    {
+        "_id": 7,
+        "respiracion": "Respiracion De la Niebla"
+    },
+    {
+        "_id": 8,
+        "respiracion": "Respiracion Del Amor"
+    },
+    {
+        "_id": 9,
+        "respiracion": "Respiracion De la Serpiente"
+    },
+    {
+        "_id": 10,
+        "respiracion": "Respiracion Del Sonido"
+    },
+    {
+        "_id": 11,
+        "respiracion": "Respiracion Del Viento"
+    },
+    {
+        "_id": 12,
+        "respiracion": "Respiracion De la Roca"
+    },
+    {
+        "_id": 13,
+        "respiracion": "Respiracion De Lunar"
+    },
+    {
+        "_id": 14,
+        "respiracion": "Respiracion De la Flor"
+    }
+]
