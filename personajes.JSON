@@ -1,6 +1,7 @@
 [
     {
       "_id": 1,
+      "anime": "ataque a los titanes",
       "nombre": "Eren Yeager",
       "rol": "protagonista",
       "habilidades": ["Titán de Ataque", "Titán Fundador", "regeneración"],
@@ -11,6 +12,7 @@
     },
     {
       "_id": 2,
+      "anime": "ataque a los titanes",
       "nombre": "Levi Ackerman",
       "rol": "capitán",
       "habilidades": ["espadas", "velocidad", "estrategia"],
@@ -21,6 +23,7 @@
     },
     {
       "_id": 3,
+      "anime": "ataque a los titanes",
       "nombre": "Hange Zoë",
       "rol": "comandante",
       "habilidades": ["inteligencia", "experimentación", "liderazgo"],
@@ -31,6 +34,7 @@
     },
     {
       "_id": 4,
+      "anime": "ataque a los titanes",
       "nombre": "Armin Arlert",
       "rol": "estratega",
       "habilidades": ["Titán Colosal", "táctica", "negociación"],
@@ -41,6 +45,7 @@
     },
     {
       "_id": 5,
+      "anime": "ataque a los titanes",
       "nombre": "Mikasa Ackerman",
       "rol": "guerrera",
       "habilidades": ["fuerza", "instintos Ackerman", "reflejos"],
@@ -51,6 +56,7 @@
     },
     {
       "_id": 6,
+      "anime": "ataque a los titanes",
       "nombre": "Sasha Blouse",
       "rol": "francotiradora",
       "habilidades": ["puntería", "sigilo", "sentido del olfato"],
@@ -61,6 +67,7 @@
     },
     {
       "_id": 7,
+      "anime": "ataque a los titanes",
       "nombre": "Connie Springer",
       "rol": "soldado",
       "habilidades": ["agilidad", "lealtad", "humor"],
