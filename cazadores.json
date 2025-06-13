@@ -1,0 +1,152 @@
+[
+    {
+      "_id": 1,
+      "nombre": "Tanjiro Kamado",
+      "rol": "Cazador",
+      "Tenica": "Respiracion solar",
+      "rango": "Hinoe",
+      "estado": "vivo",
+      "personalidad": ["Amable", "Comprensivo", "Alegre"],
+      "parientes": { "padre": "muerto", "madre": "muerto" }
+    },
+    {
+      "_id": 2,
+      "nombre": "Zenitsu Agatsuma",
+      "rol": "Cazador",
+      "Tenica": "Respiracion Del Rayo",
+      "rango": "Hinoe",
+      "estado": "vivo",
+      "personalidad": ["Nervioso", "Timido", "Asustadiso"],
+      "parientes": { "abelo": "muerto" }
+    },
+    {
+      "_id": 3,
+      "nombre": "Inosuke Hashibira",
+      "rol": "Cazador",
+      "Tenica": "Respiracion De la Bestia",
+      "rango": "Hinoe",
+      "estado": "vivo",
+      "personalidad": ["Egocentrico", "Fuerte", "Valiente"],
+      "parientes": { "madre": "muerto" }
+    },
+    {
+      "_id": 4,
+      "nombre": "Kanao Tsuyuri",
+      "rol": "Cazador",
+      "Tenica": "Respiracion De la Flor",
+      "rango": "Hinoe",
+      "estado": "vivo",
+      "personalidad": ["Egocentrico", "Fuerte", "Valiente"],
+      "parientes": { "hermana1": "muerto", "hermana2": "muerto" }
+    },
+    {
+      "_id": 5,
+      "nombre": "Genya Shinazugawa",
+      "rol": "Cazador",
+      "Tenica": "Libre",
+      "rango": "Hinoe",
+      "estado": "muerto",
+      "personalidad": ["Distante", "Fuerte", "Valiente"],
+      "parientes": {"padre": "muerto", "madre": "muerto", "hermano": "vivo"}
+    },
+    {
+      "_id": 6,
+      "nombre": "Gyomei Himejima",
+      "rol": "Cazador",
+      "Tenica": "Respiracion De la Roca",
+      "rango": "Pilar",
+      "estado": "muerto",
+      "personalidad": ["Callado", "Fuerte", "Valiente"],
+      "parientes": {"general": "muertos"}
+    },
+    {
+      "_id": 7,
+      "nombre": "Tomioka Giyu",
+      "rol": "Cazador",
+      "Tenica": "Respiracion Del Agua",
+      "rango": "Pilar",
+      "estado": "vivo",
+      "personalidad": ["Callado", "Distante", "Aburrido"],
+      "parientes": {"hermana": "muerto"}
+    },
+    {
+      "_id": 8,
+      "nombre": "Iguro Obanai",
+      "rol": "Cazador",
+      "Tenica": "Respiracion De la serpiente",
+      "rango": "Pilar",
+      "estado": "muerto",
+      "personalidad": ["Callado", "celoso", "relajado"],
+      "parientes": {"general": "muertos"}
+    },
+    {
+      "_id": 9,
+      "nombre": "Uzui Tengen",
+      "rol": "Cazador",
+      "Tenica": "Respiracion Del Sonido",
+      "rango": "Pilar",
+      "estado": "vivo",
+      "personalidad": ["Espontaneo", "Elegante", "Valiente"],
+      "parientes": {"esposa1": "vivo", "esposa2": "vivo", "esposa3": "vivo"}
+    },
+    {
+      "_id": 10,
+      "nombre": "Tokito Muichiro",
+      "rol": "Cazador",
+      "Tenica": "Respiracion De la niebla",
+      "rango": "Pilar",
+      "estado": "muerto",
+      "personalidad": ["sombrio", "frio", "relajado"],
+      "parientes": {"hemano": "muerto", "padre": "muerto", "madre": "muerto"}
+    },
+    {
+      "_id": 11,
+      "nombre": "Rengoku Kyojuro",
+      "rol": "Cazador",
+      "Tenica": "Respiracion De la llama",
+      "rango": "Pilar",
+      "estado": "muerto",
+      "personalidad": ["Espontaneo", "Fuerte", "Valiente"],
+      "parientes": {"hemano": "vivo", "padre": "vivo", "madre": "muerto"}
+    },
+    {
+      "_id": 12,
+      "nombre": "Sanemi Shinazugawa",
+      "rol": "Cazador",
+      "Tenica": "Respiracion Del viento",
+      "rango": "Pilar",
+      "estado": "vivo",
+      "personalidad": ["Loco", "Fuerte", "Valiente"],
+      "parientes": {"hemano": "muerto", "padre": "muerto", "madre": "muerto"}
+    },
+    {
+      "_id": 13,
+      "nombre": "Shinobu Kocho",
+      "rol": "Cazador",
+      "Tenica": "Respiracion Del Insecto",
+      "rango": "Pilar",
+      "estado": "muerto",
+      "personalidad": ["Linda", "Amable", "Alegre"],
+      "parientes": {"hemana": "muerto", "padre": "muerto", "madre": "muerto"}
+    },
+    {
+      "_id": 14,
+      "nombre": "Mitsuri Kanroji",
+      "rol": "Cazador",
+      "Tenica": "Respiracion Del Amor",
+      "rango": "Pilar",
+      "estado": "muerto",
+      "personalidad": ["Linda", "Amable", "Tierna"],
+      "parientes": {"hemano": "vivo", "padre": "vivo", "madre": "vivo"}
+    },
+    {
+      "_id": 15,
+      "nombre": "Kanae Kocho",
+      "rol": "Cazador",
+      "Tenica": "Respiracion De la Flor",
+      "rango": "Pilar",
+      "estado": "muerto",
+      "personalidad": ["Linda", "Amable", "Alegre"],
+      "parientes": {"hemana": "muerto", "padre": "muerto", "madre": "muerto"}
+    }
+]

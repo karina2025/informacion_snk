@@ -1,0 +1,189 @@
+[
+    {
+      "_id": 1,
+      "nombre": "Muzan Kibutsuji",
+      "rol": "Demonio",
+      "arte_demoniaca": "Convertir Demonios",
+      "rango": "Rey Demonio",
+      "estado": "muerto",
+      "personalidad": ["Cruel", "Avaro", "Ambicioso"],
+      "años_vivo": "1000 años",
+      "habilidades": ["Regeneracion", "Veloz", "Fuerza"]
+    },
+    {
+      "_id": 2,
+      "nombre": "Kokushibo",
+      "rol": "Demonio",
+      "arte_demoniaca": "Respiracion Lunar",
+      "rango": "Primera Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Cruel", "Celoso", "Ambicioso"],
+      "años_vivo": "460 años",
+      "habilidades": ["Regeneracion", "Veloz", "Forma Final"]
+    },
+    {
+      "_id": 3,
+      "nombre": "Douma",
+      "rol": "Demonio",
+      "arte_demoniaca": "Manejo del Hielo",
+      "rango": "Segunda Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Confiado", "Coqueto", "Hipocrita"],
+      "años_vivo": "133 años",
+      "habilidades": ["Regeneracion", "Veloz", "Inteligencia"]
+    },
+    {
+      "_id": 4,
+      "nombre": "Akaza",
+      "rol": "Demonio",
+      "arte_demoniaca": "Artes Marciales",
+      "rango": "Tercera Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Furioso", "Solitario", "Valiente"],
+      "años_vivo": "200 años",
+      "habilidades": ["Regeneracion", "Fuerte", "Inmune a la Decapitacion"]
+    },
+    {
+      "_id": 5,
+      "nombre": "Hantengu",
+      "rol": "Demonio",
+      "arte_demoniaca": "Separar sus Emociones",
+      "rango": "Cuarta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Cobarde", "Avaro", "Hipocrita"],
+      "años_vivo": "200 años",
+      "habilidades": ["Regeneracion", "Inmune a la Decapitacion"]
+    },
+    {
+      "_id": 6,
+      "nombre": "Sekido",
+      "rol": "Demonio",
+      "arte_demoniaca": "Baculo Invoca Rayos",
+      "rango": "Cuarta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Furioso"],
+      "años_vivo": "200 años",
+      "habilidades": ["Regeneracion", "Inteligente"]
+    },
+    {
+      "_id": 7,
+      "nombre": "Karaku",
+      "rol": "Demonio",
+      "arte_demoniaca": "Control del Viento",
+      "rango": "Cuarta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Relajado"],
+      "años_vivo": "200 años",
+      "habilidades": ["Regeneracion", "Veloz"]
+    },
+    {
+      "_id": 8,
+      "nombre": "Aizetsu",
+      "rol": "Demonio",
+      "arte_demoniaca": "Control de una Lanza",
+      "rango": "Cuarta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Melancolico", "triste"],
+      "años_vivo": "200 años",
+      "habilidades": ["Regeneracion", "Veloz", "Fuerte"]
+    },
+    {
+      "_id": 9,
+      "nombre": "Urogi",
+      "rol": "Demonio",
+      "arte_demoniaca": "Grito Sonico",
+      "rango": "Cuarta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Feliz", "Jubilo"],
+      "años_vivo": "200 años",
+      "habilidades": ["Regeneracion", "Veloz", "volar"]
+    },
+    {
+      "_id": 10,
+      "nombre": "Zohakouten",
+      "rol": "Demonio",
+      "arte_demoniaca": "Control de la naturaleza",
+      "rango": "Cuarta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Furia", "Odio"],
+      "años_vivo": "200 años",
+      "habilidades": ["Regeneracion", "Inteligente", "Fuerte"]
+    },
+    {
+      "_id": 11,
+      "nombre": "Urami",
+      "rol": "Demonio",
+      "arte_demoniaca": "Ultimo Recurso",
+      "rango": "Cuarta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Rencoroso"],
+      "años_vivo": "200 años",
+      "habilidades": ["Regeneracion", "Correr"]
+    },
+    {
+      "_id": 12,
+      "nombre": "Nakime",
+      "rol": "Demonio",
+      "arte_demoniaca": "Control Fortaleza Infinita",
+      "rango": "Cuarta Luna Superior(Remplazo)",
+      "estado": "muerto",
+      "personalidad": ["Neutral"],
+      "años_vivo": "170 años",
+      "habilidades": ["Regeneracion", "Inteligente", "Veloz"]
+    },
+    {
+      "_id": 12,
+      "nombre": "Gyokko",
+      "rol": "Demonio",
+      "arte_demoniaca": "Control de Peces",
+      "rango": "Quinta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Loco", "Egocentrico"],
+      "años_vivo": "133 años",
+      "habilidades": ["Regeneracion", "teletransportacion", "Veloz"]
+    },
+    {
+      "_id": 13,
+      "nombre": "Gyutaro",
+      "rol": "Demonio",
+      "arte_demoniaca": "Control De ozes",
+      "rango": "Sexta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Celoso", "Furioso"],
+      "años_vivo": "126 años",
+      "habilidades": ["Regeneracion", "Fuerza", "Veloz"]
+    },
+    {
+      "_id": 13,
+      "nombre": "Daki",
+      "rol": "Demonio",
+      "arte_demoniaca": "Manipulación del Obi",
+      "rango": "Sexta Luna Superior",
+      "estado": "muerto",
+      "personalidad": ["Dramatica", "Furioso", "Incredula"],
+      "años_vivo": "120 años",
+      "habilidades": ["Regeneracion", "Ataque Distante", "Veloz"]
+    },
+    {
+      "_id": 14,
+      "nombre": "Kaigaku",
+      "rol": "Demonio",
+      "arte_demoniaca": "Respiracion del rayo",
+      "rango": "Sexta Luna Superior(remplazo)",
+      "estado": "muerto",
+      "personalidad": ["Avaricioso", "Furioso", "Celoso"],
+      "años_vivo": "14 años",
+      "habilidades": ["Regeneracion", "Veloz"]
+    },
+    {
+      "_id": 15,
+      "nombre": "Nezuko",
+      "rol": "Demonio",
+      "arte_demoniaca": "Control del Fuego",
+      "rango": "Sexta Superior",
+      "estado": "vivo",
+      "personalidad": ["Linda", "Amable", "Tierna"],
+      "años_vivo": "12 años",
+      "habilidades": ["Regeneracion", "Veloz", "Fuerza"]
+    }
+]
