@@ -8,7 +8,8 @@
       "estado": "muerto",
       "personalidad": ["Cruel", "Avaro", "Ambicioso"],
       "años_vivo": "1000 años",
-      "habilidades": ["Regeneracion", "Veloz", "Fuerza"]
+      "habilidades": ["Regeneracion", "Veloz", "Fuerza"],
+      "anime": "demon slayer"
     },
     {
       "_id": 2,
@@ -19,7 +20,8 @@
       "estado": "muerto",
       "personalidad": ["Cruel", "Celoso", "Ambicioso"],
       "años_vivo": "460 años",
-      "habilidades": ["Regeneracion", "Veloz", "Forma Final"]
+      "habilidades": ["Regeneracion", "Veloz", "Forma Final"],
+      "anime": "demon slayer"
     },
     {
       "_id": 3,
@@ -30,7 +32,8 @@
       "estado": "muerto",
       "personalidad": ["Confiado", "Coqueto", "Hipocrita"],
       "años_vivo": "133 años",
-      "habilidades": ["Regeneracion", "Veloz", "Inteligencia"]
+      "habilidades": ["Regeneracion", "Veloz", "Inteligencia"],
+      "anime": "demon slayer"
     },
     {
       "_id": 4,
@@ -41,7 +44,8 @@
       "estado": "muerto",
       "personalidad": ["Furioso", "Solitario", "Valiente"],
       "años_vivo": "200 años",
-      "habilidades": ["Regeneracion", "Fuerte", "Inmune a la Decapitacion"]
+      "habilidades": ["Regeneracion", "Fuerte", "Inmune a la Decapitacion"],
+      "anime": "demon slayer"
     },
     {
       "_id": 5,
@@ -52,7 +56,8 @@
       "estado": "muerto",
       "personalidad": ["Cobarde", "Avaro", "Hipocrita"],
       "años_vivo": "200 años",
-      "habilidades": ["Regeneracion", "Inmune a la Decapitacion"]
+      "habilidades": ["Regeneracion", "Inmune a la Decapitacion"],
+      "anime": "demon slayer"
     },
     {
       "_id": 6,
@@ -63,7 +68,8 @@
       "estado": "muerto",
       "personalidad": ["Furioso"],
       "años_vivo": "200 años",
-      "habilidades": ["Regeneracion", "Inteligente"]
+      "habilidades": ["Regeneracion", "Inteligente"],
+      "anime": "demon slayer"
     },
     {
       "_id": 7,
@@ -74,7 +80,8 @@
       "estado": "muerto",
       "personalidad": ["Relajado"],
       "años_vivo": "200 años",
-      "habilidades": ["Regeneracion", "Veloz"]
+      "habilidades": ["Regeneracion", "Veloz"],
+      "anime": "demon slayer"
     },
     {
       "_id": 8,
@@ -85,7 +92,8 @@
       "estado": "muerto",
       "personalidad": ["Melancolico", "triste"],
       "años_vivo": "200 años",
-      "habilidades": ["Regeneracion", "Veloz", "Fuerte"]
+      "habilidades": ["Regeneracion", "Veloz", "Fuerte"],
+      "anime": "demon slayer"
     },
     {
       "_id": 9,
@@ -96,7 +104,8 @@
       "estado": "muerto",
       "personalidad": ["Feliz", "Jubilo"],
       "años_vivo": "200 años",
-      "habilidades": ["Regeneracion", "Veloz", "volar"]
+      "habilidades": ["Regeneracion", "Veloz", "volar"],
+      "anime": "demon slayer"
     },
     {
       "_id": 10,
@@ -107,7 +116,8 @@
       "estado": "muerto",
       "personalidad": ["Furia", "Odio"],
       "años_vivo": "200 años",
-      "habilidades": ["Regeneracion", "Inteligente", "Fuerte"]
+      "habilidades": ["Regeneracion", "Inteligente", "Fuerte"],
+      "anime": "demon slayer"
     },
     {
       "_id": 11,
@@ -118,7 +128,8 @@
       "estado": "muerto",
       "personalidad": ["Rencoroso"],
       "años_vivo": "200 años",
-      "habilidades": ["Regeneracion", "Correr"]
+      "habilidades": ["Regeneracion", "Correr"],
+      "anime": "demon slayer"
     },
     {
       "_id": 12,
@@ -129,10 +140,11 @@
       "estado": "muerto",
       "personalidad": ["Neutral"],
       "años_vivo": "170 años",
-      "habilidades": ["Regeneracion", "Inteligente", "Veloz"]
+      "habilidades": ["Regeneracion", "Inteligente", "Veloz"],
+      "anime": "demon slayer"
     },
     {
-      "_id": 12,
+      "_id": 13,
       "nombre": "Gyokko",
       "rol": "Demonio",
       "arte_demoniaca": "Control de Peces",
@@ -140,10 +152,11 @@
       "estado": "muerto",
       "personalidad": ["Loco", "Egocentrico"],
       "años_vivo": "133 años",
-      "habilidades": ["Regeneracion", "teletransportacion", "Veloz"]
+      "habilidades": ["Regeneracion", "teletransportacion", "Veloz"],
+      "anime": "demon slayer"
     },
     {
-      "_id": 13,
+      "_id": 14,
       "nombre": "Gyutaro",
       "rol": "Demonio",
       "arte_demoniaca": "Control De ozes",
@@ -151,10 +164,11 @@
       "estado": "muerto",
       "personalidad": ["Celoso", "Furioso"],
       "años_vivo": "126 años",
-      "habilidades": ["Regeneracion", "Fuerza", "Veloz"]
+      "habilidades": ["Regeneracion", "Fuerza", "Veloz"],
+      "anime": "demon slayer"
     },
     {
-      "_id": 13,
+      "_id": 15,
       "nombre": "Daki",
       "rol": "Demonio",
       "arte_demoniaca": "Manipulación del Obi",
@@ -162,10 +176,11 @@
       "estado": "muerto",
       "personalidad": ["Dramatica", "Furioso", "Incredula"],
       "años_vivo": "120 años",
-      "habilidades": ["Regeneracion", "Ataque Distante", "Veloz"]
+      "habilidades": ["Regeneracion", "Ataque Distante", "Veloz"],
+      "anime": "demon slayer"
     },
     {
-      "_id": 14,
+      "_id": 16,
       "nombre": "Kaigaku",
       "rol": "Demonio",
       "arte_demoniaca": "Respiracion del rayo",
@@ -173,10 +188,11 @@
       "estado": "muerto",
       "personalidad": ["Avaricioso", "Furioso", "Celoso"],
       "años_vivo": "14 años",
-      "habilidades": ["Regeneracion", "Veloz"]
+      "habilidades": ["Regeneracion", "Veloz"],
+      "anime": "demon slayer"
     },
     {
-      "_id": 15,
+      "_id": 17,
       "nombre": "Nezuko",
       "rol": "Demonio",
       "arte_demoniaca": "Control del Fuego",
@@ -184,6 +200,7 @@
       "estado": "vivo",
       "personalidad": ["Linda", "Amable", "Tierna"],
       "años_vivo": "12 años",
-      "habilidades": ["Regeneracion", "Veloz", "Fuerza"]
+      "habilidades": ["Regeneracion", "Veloz", "Fuerza"],
+      "anime": "demon slayer"
     }
 ]

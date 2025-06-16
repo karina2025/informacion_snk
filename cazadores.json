@@ -7,7 +7,8 @@
       "rango": "Hinoe",
       "estado": "vivo",
       "personalidad": ["Amable", "Comprensivo", "Alegre"],
-      "parientes": { "padre": "muerto", "madre": "muerto" }
+      "parientes": { "padre": "muerto", "madre": "muerto" },
+      "anime": "demon slayer"
     },
     {
       "_id": 2,
@@ -17,7 +18,8 @@
       "rango": "Hinoe",
       "estado": "vivo",
       "personalidad": ["Nervioso", "Timido", "Asustadiso"],
-      "parientes": { "abelo": "muerto" }
+      "parientes": { "abelo": "muerto" },
+      "anime": "demon slayer"
     },
     {
       "_id": 3,
@@ -27,7 +29,8 @@
       "rango": "Hinoe",
       "estado": "vivo",
       "personalidad": ["Egocentrico", "Fuerte", "Valiente"],
-      "parientes": { "madre": "muerto" }
+      "parientes": { "madre": "muerto" },
+      "anime": "demon slayer"
     },
     {
       "_id": 4,
@@ -37,7 +40,8 @@
       "rango": "Hinoe",
       "estado": "vivo",
       "personalidad": ["Egocentrico", "Fuerte", "Valiente"],
-      "parientes": { "hermana1": "muerto", "hermana2": "muerto" }
+      "parientes": { "hermana1": "muerto", "hermana2": "muerto" },
+      "anime": "demon slayer"
     },
     {
       "_id": 5,
@@ -47,7 +51,8 @@
       "rango": "Hinoe",
       "estado": "muerto",
       "personalidad": ["Distante", "Fuerte", "Valiente"],
-      "parientes": {"padre": "muerto", "madre": "muerto", "hermano": "vivo"}
+      "parientes": {"padre": "muerto", "madre": "muerto", "hermano": "vivo"},
+      "anime": "demon slayer"
     },
     {
       "_id": 6,
@@ -57,7 +62,8 @@
       "rango": "Pilar",
       "estado": "muerto",
       "personalidad": ["Callado", "Fuerte", "Valiente"],
-      "parientes": {"general": "muertos"}
+      "parientes": {"general": "muertos"},
+      "anime": "demon slayer"
     },
     {
       "_id": 7,
@@ -67,7 +73,8 @@
       "rango": "Pilar",
       "estado": "vivo",
       "personalidad": ["Callado", "Distante", "Aburrido"],
-      "parientes": {"hermana": "muerto"}
+      "parientes": {"hermana": "muerto"},
+      "anime": "demon slayer"
     },
     {
       "_id": 8,
@@ -77,7 +84,8 @@
       "rango": "Pilar",
       "estado": "muerto",
       "personalidad": ["Callado", "celoso", "relajado"],
-      "parientes": {"general": "muertos"}
+      "parientes": {"general": "muertos"},
+      "anime": "demon slayer"
     },
     {
       "_id": 9,
@@ -87,7 +95,8 @@
       "rango": "Pilar",
       "estado": "vivo",
       "personalidad": ["Espontaneo", "Elegante", "Valiente"],
-      "parientes": {"esposa1": "vivo", "esposa2": "vivo", "esposa3": "vivo"}
+      "parientes": {"esposa1": "vivo", "esposa2": "vivo", "esposa3": "vivo"},
+      "anime": "demon slayer"
     },
     {
       "_id": 10,
@@ -97,7 +106,8 @@
       "rango": "Pilar",
       "estado": "muerto",
       "personalidad": ["sombrio", "frio", "relajado"],
-      "parientes": {"hemano": "muerto", "padre": "muerto", "madre": "muerto"}
+      "parientes": {"hemano": "muerto", "padre": "muerto", "madre": "muerto"},
+      "anime": "demon slayer"
     },
     {
       "_id": 11,
@@ -107,7 +117,8 @@
       "rango": "Pilar",
       "estado": "muerto",
       "personalidad": ["Espontaneo", "Fuerte", "Valiente"],
-      "parientes": {"hemano": "vivo", "padre": "vivo", "madre": "muerto"}
+      "parientes": {"hemano": "vivo", "padre": "vivo", "madre": "muerto"},
+      "anime": "demon slayer"
     },
     {
       "_id": 12,
@@ -117,7 +128,8 @@
       "rango": "Pilar",
       "estado": "vivo",
       "personalidad": ["Loco", "Fuerte", "Valiente"],
-      "parientes": {"hemano": "muerto", "padre": "muerto", "madre": "muerto"}
+      "parientes": {"hemano": "muerto", "padre": "muerto", "madre": "muerto"},
+      "anime": "demon slayer"
     },
     {
       "_id": 13,
@@ -127,7 +139,8 @@
       "rango": "Pilar",
       "estado": "muerto",
       "personalidad": ["Linda", "Amable", "Alegre"],
-      "parientes": {"hemana": "muerto", "padre": "muerto", "madre": "muerto"}
+      "parientes": {"hemana": "muerto", "padre": "muerto", "madre": "muerto"},
+      "anime": "demon slayer"
     },
     {
       "_id": 14,
@@ -137,7 +150,8 @@
       "rango": "Pilar",
       "estado": "muerto",
       "personalidad": ["Linda", "Amable", "Tierna"],
-      "parientes": {"hemano": "vivo", "padre": "vivo", "madre": "vivo"}
+      "parientes": {"hemano": "vivo", "padre": "vivo", "madre": "vivo"},
+      "anime": "demon slayer"
     },
     {
       "_id": 15,
@@ -147,6 +161,7 @@
       "rango": "Pilar",
       "estado": "muerto",
       "personalidad": ["Linda", "Amable", "Alegre"],
-      "parientes": {"hemana": "muerto", "padre": "muerto", "madre": "muerto"}
+      "parientes": {"hemana": "muerto", "padre": "muerto", "madre": "muerto"},
+      "anime": "demon slayer"
     }
 ]

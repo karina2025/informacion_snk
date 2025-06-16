@@ -2,566 +2,674 @@
     {
         "_id": 1,
         "respiracion": "Respiracion De Agua",
-        "primera_postura": {
-            "nombre": "Corte de la Superficie del Agua",
-            "descripcion": "El usuario ejecuta un único corte horizontal con la intención de decapitar a su oponente."
-        },
-        "segunda_postura": {
-            "nombre": "Rueda de Agua",
-            "descripcion": "El usuario salta hacia adelante en el aire y realiza una voltereta frontal, efectuando un corte vertical en un movimiento circular."
-        },
-        "tercera_postura": {
-            "nombre": "Danza de las Corrientes",
-            "descripcion": "El usuario balancea su espada en un movimiento sinuoso y fluido, acompañando los movimientos de su cuerpo, cortando todo a su paso de manera continua."
-        },
-        "cuarta_porstura": {
-            "nombre": "Golpe de Marea",
-            "descripcion": "El usuario desata una serie de cortes fluidos, lanzando múltiples ataques consecutivos."
-        },
-        "quinta_postura": {
-            "nombre": "Lluvia tras la Sequía",
-            "descripcion": "El usuario cambia el agarre de su espada para decapitar al oponente con un único corte fluido, que causa poco o ningún dolor.[7]El enemigo a veces puede sentir gotas de lluvia cayendo sobre su rostro."
-        },
-        "sexta_postura": {
-            "nombre": "Remolino",
-            "descripcion": " El usuario retuerce su cuerpo y usa su espada para ejecutar un feroz ataque giratorio que genera un remolino de aire, desgarrando todo lo atrapado en su trayectoria como si fuera una espada gigante y afilada. Este movimiento se ve potenciado al ser efectuado bajo el agua."
-        },
-        "septima_postura": {
-            "nombre": "Estocada de Ondas Concéntricas",
-            "descripcion": "El usuario efectúa un empuje preciso, rápido y exacto con su espada."
-        },
-        "octava_postura": {
-            "nombre": "Cuenca de Cascada",
-            "descripcion": "El usuario corta al oponente verticalmente en un movimiento fluido, siendo más efectivo cuando se realiza mientras se está cayendo. Tambien puede ser utilizado para amortiguar una caída."
-        },
-        "novena_postura": {
-            "nombre": "Salpicadura Caótica",
-            "descripcion": "El usuario ajusta su juego de pies para reducir el tiempo y la superficie necesarios para aterrizar, permitiendo así un movimiento sin restricciones. Ideal cuando peleas en un lugar sin un punto de apoyo sólido."
-        },
-        "decima_postura": {
-            "nombre": "El dragón del Cambio",
-            "descripcion": "El usuario carga hacia el oponente mientras desata una serie de ataques continuos con la espada, que aumentan en fuerza y velocidad con el tiempo gracias al impulso acumulado. Estos ataques parecen formar un dragón de agua japonés que acompaña al usuario en el combate."
-        },
-        "undecima_postura": {
-            "nombre": "Calma",
-            "descripcion": "El usuario detiene todo movimiento corporal y entra en un estado de completa serenidad, lo que le permite desviar, bloquear y contraatacar cualquier ataque entrante con una velocidad imperceptible."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Corte de la Superficie del Agua",
+                "descripcion": "El usuario ejecuta un único corte horizontal con la intención de decapitar a su oponente."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Rueda de Agua",
+                "descripcion": "El usuario salta hacia adelante en el aire y realiza una voltereta frontal, efectuando un corte vertical en un movimiento circular."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Danza de las Corrientes",
+                "descripcion": "El usuario balancea su espada en un movimiento sinuoso y fluido, acompañando los movimientos de su cuerpo, cortando todo a su paso de manera continua."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Golpe de Marea",
+                "descripcion": "El usuario desata una serie de cortes fluidos, lanzando múltiples ataques consecutivos."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Lluvia tras la Sequía",
+                "descripcion": "El usuario cambia el agarre de su espada para decapitar al oponente con un único corte fluido, que causa poco o ningún dolor.[7]El enemigo a veces puede sentir gotas de lluvia cayendo sobre su rostro."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Remolino",
+                "descripcion": " El usuario retuerce su cuerpo y usa su espada para ejecutar un feroz ataque giratorio que genera un remolino de aire, desgarrando todo lo atrapado en su trayectoria como si fuera una espada gigante y afilada. Este movimiento se ve potenciado al ser efectuado bajo el agua."
+            },
+            {
+                "numero": "septima_postura",
+                "nombre": "Estocada de Ondas Concéntricas",
+                "descripcion": "El usuario efectúa un empuje preciso, rápido y exacto con su espada."
+            },
+            {
+                "numero": "octava_postura",
+                "nombre": "Cuenca de Cascada",
+                "descripcion": "El usuario corta al oponente verticalmente en un movimiento fluido, siendo más efectivo cuando se realiza mientras se está cayendo. Tambien puede ser utilizado para amortiguar una caída."
+            },
+            {
+                "numero": "novena_postura",
+                "nombre": "Salpicadura Caótica",
+                "descripcion": "El usuario ajusta su juego de pies para reducir el tiempo y la superficie necesarios para aterrizar, permitiendo así un movimiento sin restricciones. Ideal cuando peleas en un lugar sin un punto de apoyo sólido."
+            },
+            {
+                "numero": "decima_postura",
+                "nombre": "El dragón del Cambio",
+                "descripcion": "El usuario carga hacia el oponente mientras desata una serie de ataques continuos con la espada, que aumentan en fuerza y velocidad con el tiempo gracias al impulso acumulado. Estos ataques parecen formar un dragón de agua japonés que acompaña al usuario en el combate."
+            },
+            {
+                "numero": "decimo_primera_postura",
+                "nombre": "Calma",
+                "descripcion": "El usuario detiene todo movimiento corporal y entra en un estado de completa serenidad, lo que le permite desviar, bloquear y contraatacar cualquier ataque entrante con una velocidad imperceptible."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
     {
         "_id": 2,
         "respiracion": "Respiracion Solar",
-        "primera_postura": {
-            "nombre": "Vals",
-            "descripcion": "un simple corte horizontal"
-        },
-        "segunda_postura": {
-            "nombre": "Cielo Azul",
-            "descripcion": "el usuario gira su cuerpo ejecutando un corte circular a 360°"
-        },
-        "tercera_postura": {
-            "nombre": "Espejo Carmesí Sofocante",
-            "descripcion": "el usuario lanza dos cortes defensivos"
-        },
-        "cuarta_porstura": {
-            "nombre": "Parhelio Arcoíris",
-            "descripcion": "una danza evasiva que consiste en giros y rotaciones a alta velocidad. Funciona de manera más efectiva en enemigos con buena visión, ya que atacarán una imagen secundaria de él usuario y no a su cuerpo real"
-        },
-        "quinta_postura": {
-            "nombre": "Rueda de Fuego",
-            "descripcion": "el usuario salta en el aire mientras gira dando lugar a una rueda de fuego["
-        },
-        "sexta_postura": {
-            "nombre": "Sol Abrasante",
-            "descripcion": "el usuario crea un vórtice de fuego defensivo"
-        },
-        "septima_postura": {
-            "nombre": "Lanza de Girasol",
-            "descripcion": "el usuario lanza una poderosa estocada contra el enemigo"
-        },
-        "octava_postura": {
-            "nombre": "Inmensa Bruma Llameante",
-            "descripcion": "el usuario carga contra el enemigo lanzando un corte"
-        },
-        "novena_postura": {
-            "nombre": "Puesta de Sol",
-            "descripcion": "el usuario gira en el aire lanzando un corte horizontal completamente recto["
-        },
-        "decima_postura": {
-            "nombre": "Luz Brillante de Gratitud",
-            "descripcion": "el usuario se lanza en espiral en el aire para lanzar un poderoso corte a su enemigo"
-        },
-        "undecima_postura": {
-            "nombre": "Halo Solar del Dragón",
-            "descripcion": "el usuario se mueve entre los enemigos, evitando sus ataques y les corta múltiples veces"
-        },
-        "decimo_segunda_postura": {
-            "nombre": "Vals Flameante",
-            "descripcion": " un combo de dos golpes que comienza con un ataque vertical y luego uno horizontal"
-        },
-        "decimo_tercera_postura": {
-            "nombre": "desconocido",
-            "descripcion": "el usuario realiza continuamente las doce posturas de la respiración de forma repetitiva para aumentar la precisión y la agilidad de sus propios movimientos. Esta postura fue creada exclusivamente para matar a Muzan Kibutsuji"
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Vals",
+                "descripcion": "un simple corte horizontal"
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Cielo Azul",
+                "descripcion": "el usuario gira su cuerpo ejecutando un corte circular a 360°"
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Espejo Carmesí Sofocante",
+                "descripcion": "el usuario lanza dos cortes defensivos"
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Parhelio Arcoíris",
+                "descripcion": "una danza evasiva que consiste en giros y rotaciones a alta velocidad. Funciona de manera más efectiva en enemigos con buena visión, ya que atacarán una imagen secundaria de él usuario y no a su cuerpo real"
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Rueda de Fuego",
+                "descripcion": "el usuario salta en el aire mientras gira dando lugar a una rueda de fuego["
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Sol Abrasante",
+                "descripcion": "el usuario crea un vórtice de fuego defensivo"
+            },
+            {
+                "numero": "septima_postura",
+                "nombre": "Lanza de Girasol",
+                "descripcion": "el usuario lanza una poderosa estocada contra el enemigo"
+            },
+            {
+                "numero": "octava_postura",
+                "nombre": "Inmensa Bruma Llameante",
+                "descripcion": "el usuario carga contra el enemigo lanzando un corte"
+            },
+            {
+                "numero": "novena_postura",
+                "nombre": "Puesta de Sol",
+                "descripcion": "el usuario gira en el aire lanzando un corte horizontal completamente recto["
+            },
+            {
+                "numero": "decima_postura",
+                "nombre": "Luz Brillante de Gratitud",
+                "descripcion": "el usuario se lanza en espiral en el aire para lanzar un poderoso corte a su enemigo"
+            },
+            {
+                "numero": "decimo_primera_postura",
+                "nombre": "Halo Solar del Dragón",
+                "descripcion": "el usuario se mueve entre los enemigos, evitando sus ataques y les corta múltiples veces"
+            },
+            {
+                "numero": "decimo_segunda_postura",
+                "nombre": "Vals Flameante",
+                "descripcion": " un combo de dos golpes que comienza con un ataque vertical y luego uno horizontal"
+            },
+            {
+                "numero": "decimo_tercer_postura",
+                "nombre": "desconocido",
+                "descripcion": "el usuario realiza continuamente las doce posturas de la respiración de forma repetitiva para aumentar la precisión y la agilidad de sus propios movimientos. Esta postura fue creada exclusivamente para matar a Muzan Kibutsuji"
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
     {
         "_id": 3,
         "respiracion": "Respiracion Del Rayo",
-        "primera_postura": {
-            "nombre": "Destello del Relámpago",
-            "descripcion": "El usuario desenvaina su katana, avanza a una velocidad cegadora y decapita a su oponente más rápido de lo que puede reaccionar, antes de volver a envainarla"
-        },
-        "segunda_postura": {
-            "nombre": "Bola de trueno",
-            "descripcion": "El usuario lanza cinco cortes arqueados acompañados de rayos en rápida sucesión."
-        },
-        "tercera_postura": {
-            "nombre": "Enjambre relámpago de mosquitos",
-            "descripcion": "El usuario rodea al enemigo con ondas de rayos arqueados y lo ataca desde todas las direcciones."
-        },
-        "cuarta_porstura": {
-            "nombre": "Trueno distante",
-            "descripcion": "El usuario genera una bola de electricidad que libera ondas de fuertes rayos multidireccionales desde lejos."
-        },
-        "quinta_postura": {
-            "nombre": "Trueno ardiente",
-            "descripcion": "El usuario lanza un corte de espada ascendente de largo alcance acompañado de un rayo."
-        },
-        "sexta_postura": {
-            "nombre": "Lluvia eléctrica",
-            "descripcion": "El usuario lanza una serie de poderosos ataques de rayos de largo alcance que golpean a su oponente desde lejos."
-        },
-        "septima_postura": {
-            "nombre": "Dios del trueno en llamas",
-            "descripcion": "El usuario avanza a una velocidad vertiginosa y lanza un singular corte hacia delante desde una posición baja, que parece estar acompañado por un dragón japonés amarillo con forma de rayo."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Destello del Relámpago",
+                "descripcion": "El usuario desenvaina su katana, avanza a una velocidad cegadora y decapita a su oponente más rápido de lo que puede reaccionar, antes de volver a envainarla"
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Bola de trueno",
+                "descripcion": "El usuario lanza cinco cortes arqueados acompañados de rayos en rápida sucesión."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Enjambre relámpago de mosquitos",
+                "descripcion": "El usuario rodea al enemigo con ondas de rayos arqueados y lo ataca desde todas las direcciones."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Trueno distante",
+                "descripcion": "El usuario genera una bola de electricidad que libera ondas de fuertes rayos multidireccionales desde lejos."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Trueno ardiente",
+                "descripcion": "El usuario lanza un corte de espada ascendente de largo alcance acompañado de un rayo."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Lluvia eléctrica",
+                "descripcion": "El usuario lanza una serie de poderosos ataques de rayos de largo alcance que golpean a su oponente desde lejos."
+            },
+            {
+                "numero": "septima_postura",
+                "nombre": "Dios del trueno en llamas",
+                "descripcion": "El usuario avanza a una velocidad vertiginosa y lanza un singular corte hacia delante desde una posición baja, que parece estar acompañado por un dragón japonés amarillo con forma de rayo."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-
     {
         "_id": 4,
         "respiracion": "Respiracion De la Bestia",
-        "primera_postura": {
-            "nombre": "Perforar y extraer",
-            "descripcion": "El usuario clava ambas espadas en el cuello de su objetivo."
-        },
-        "segunda_postura": {
-            "nombre": "Desgarrar y romper",
-            "descripcion": "El usuario ejecuta un doble corte en forma de X con ambas espadas."
-        },
-        "tercera_postura": {
-            "nombre": "Desgarrar y devorar",
-            "descripcion": "El usuario realiza simultáneamente dos cortes horizontales dirigidos a la garganta del objetivo con la intención de decapitarlo."
-        },
-        "cuarta_porstura": {
-            "nombre": "Picada en trozos",
-            "descripcion": "El usuario desata múltiples cortes diagonales dobles utilizando ambas espadas."
-        },
-        "quinta_postura": {
-            "nombre": "Locura de cortes",
-            "descripcion": "El usuario ejecuta cortes en todas las direcciones mientras permanece en el aire."
-        },
-        "sexta_postura": {
-            "nombre": "Mordedura cercenante",
-            "descripcion": "El usuario efectúa cortes simultáneos con ambas espadas desde direcciones opuestas, emulando el movimiento de una sierra, sin embargo esta postura requiere que el usuario se mantenga quieto por varios segundos mientras frota sus espadas."
-        },
-        "septima_postura": {
-            "nombre": "Percepción espacial",
-            "descripcion": "El usuario emplea su sentido del tacto para detectar la posición y debilidades de sus enemigos, percibiendo ligeras alteraciones en el aire."
-        },
-        "octava_postura": {
-            "nombre": "Embestida de cerdo",
-            "descripcion": "El usuario se lanza contra su oponente a gran velocidad, ignorando los ataques entrantes."
-        },
-        "novena_postura": {
-            "nombre": "Corte ondulante divino",
-            "descripcion": "El usuario disloca las articulaciones de su brazo para ampliar el alcance de su ataque, lanzando después un golpe rápido hacia adelante"
-        },
-        "decima_postura": {
-            "nombre": "Colmillos rotatorios",
-            "descripcion": "El usuario hace girar rápidamente sus espadas en un movimiento circular, desviando los ataques enemigos, como proyectiles."
-        },
-        "postura_improvisada": {
-            "nombre": "Corte volador",
-            "descripcion": "El usuario hace girar rápidamente sus espadas en un movimiento circular, desviando los ataques enemigos, como proyectiles."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Perforar y extraer",
+                "descripcion": "El usuario clava ambas espadas en el cuello de su objetivo."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Desgarrar y romper",
+                "descripcion": "El usuario ejecuta un doble corte en forma de X con ambas espadas."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Desgarrar y devorar",
+                "descripcion": "El usuario realiza simultáneamente dos cortes horizontales dirigidos a la garganta del objetivo con la intención de decapitarlo."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Picada en trozos",
+                "descripcion": "El usuario desata múltiples cortes diagonales dobles utilizando ambas espadas."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Locura de cortes",
+                "descripcion": "El usuario ejecuta cortes en todas las direcciones mientras permanece en el aire."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Mordedura cercenante",
+                "descripcion": "El usuario efectúa cortes simultáneos con ambas espadas desde direcciones opuestas, emulando el movimiento de una sierra, sin embargo esta postura requiere que el usuario se mantenga quieto por varios segundos mientras frota sus espadas."
+            },
+            {
+                "numero": "septima_postura",
+                "nombre": "Percepción espacial",
+                "descripcion": "El usuario emplea su sentido del tacto para detectar la posición y debilidades de sus enemigos, percibiendo ligeras alteraciones en el aire."
+            },
+            {
+                "numero": "octava_postura",
+                "nombre": "Embestida de cerdo",
+                "descripcion": "El usuario se lanza contra su oponente a gran velocidad, ignorando los ataques entrantes."
+            },
+            {
+                "numero": "novena_postura",
+                "nombre": "Corte ondulante divino",
+                "descripcion": "El usuario disloca las articulaciones de su brazo para ampliar el alcance de su ataque, lanzando después un golpe rápido hacia adelante"
+            },
+            {
+                "numero": "decima_postura",
+                "nombre": "Colmillos rotatorios",
+                "descripcion": "El usuario hace girar rápidamente sus espadas en un movimiento circular, desviando los ataques enemigos, como proyectiles."
+            },
+            {
+                "numero": "postura_improvisada",
+                "nombre": "Corte volador",
+                "descripcion": "El usuario hace girar rápidamente sus espadas en un movimiento circular, desviando los ataques enemigos, como proyectiles."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-
     {
         "_id": 5,
         "respiracion": "Respiracion Del Insecto",
-        "primera_postura": {
-            "nombre": "Danza de mariposa: Capricho ",
-            "descripcion": "El usuario se lanza contra su enemigo lanzando multiples cortes inyectándole su veneno."
-        },
-        "segunda_postura": {
-            "nombre": "Danza del aguijón de abeja - Aleteo",
-            "descripcion": "El usuario realiza una potente estocada perforando al enemigo y inyectándole su veneno."
-        },
-        "tercera_postura": {
-            "nombre": "Danza de la libélula - Ojo hexagonal compuesto",
-            "descripcion": "El usuario realiza varias estocadas en todo el cuerpo inyectándole su veneno.El usuario realiza varias estocadas en todo el cuerpo inyectándole su veneno."
-        },
-        "cuarta_porstura": {
-            "nombre": "Danza del ciempiés - Zigzag de las cien patas",
-            "descripcion": "usa toda su velocidad para ejecutar un patrón en zigzag para confundir a su oponente con el fin de crear una abertura para que apuñale directamente el cuello de su oponente e inyecte veneno para matarlo, con la fuerza y ​​el poder de la puñalada siendo mejorados aún más por el impulso de su velocidad."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Danza de mariposa: Capricho ",
+                "descripcion": "El usuario se lanza contra su enemigo lanzando multiples cortes inyectándole su veneno."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Danza del aguijón de abeja - Aleteo",
+                "descripcion": "El usuario realiza una potente estocada perforando al enemigo y inyectándole su veneno."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Danza de la libélula - Ojo hexagonal compuesto",
+                "descripcion": "El usuario realiza varias estocadas en todo el cuerpo inyectándole su veneno.El usuario realiza varias estocadas en todo el cuerpo inyectándole su veneno."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Danza del ciempiés - Zigzag de las cien patas",
+                "descripcion": "usa toda su velocidad para ejecutar un patrón en zigzag para confundir a su oponente con el fin de crear una abertura para que apuñale directamente el cuello de su oponente e inyecte veneno para matarlo, con la fuerza y ​​el poder de la puñalada siendo mejorados aún más por el impulso de su velocidad."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-
     {
         "_id": 6,
         "respiracion": "Respiracion De la Llama",
-        "primera_postura": {
-            "nombre": "Mar de Fuego",
-            "descripcion": "El usuario se lanza hacia el objetivo a gran velocidad, ejecutando un corte de 360° horizontal singular dirigido al cuello con la intención de decapitarlo."
-        },
-        "segunda_postura": {
-            "nombre": "Cielo en Flamas Ascendente",
-            "descripcion": "El usuario desde una guardia baja realiza un corte vertical arqueado en un movimiento ascendente de 360°."
-        },
-        "tercera_postura": {
-            "nombre": "Universo enardecedor",
-            "descripcion": "El usuario abalanza su espada en forma de arco para atacar al enemigo con un corte diagonal descendente."
-        },
-        "cuarta_porstura": {
-            "nombre": "Ola de Llamas Ardientes",
-            "descripcion": "El usuario realizar uno o múltiples cortes en un movimiento circular fluido, sirviendo como defensa contra ataques entrantes y permitiendo decapitar a varios oponentes."
-        },
-        "quinta_postura": {
-            "nombre": "Tigre de Fuego",
-            "descripcion": "El usuario se lanza hacia adelante, llevando su espada a una guardia alta y llevando a cabo una serie de cortes que forman la imagen de un tigre en llamas que rodea al usuario."
-        },
-        "sexta_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "septima_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "octava_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "novena_postura": {
-            "nombre": "Purgatorio",
-            "descripcion": "el usuario asuma una postura elevada antes de realizar una carrera a gran velocidad hacia el objetivo y desatar un corte singular y devastador. Esta técnica es capaz de excavar el suelo a su paso."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Mar de Fuego",
+                "descripcion": "El usuario se lanza hacia el objetivo a gran velocidad, ejecutando un corte de 360° horizontal singular dirigido al cuello con la intención de decapitarlo."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Cielo en Flamas Ascendente",
+                "descripcion": "El usuario desde una guardia baja realiza un corte vertical arqueado en un movimiento ascendente de 360°."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Universo enardecedor",
+                "descripcion": "El usuario abalanza su espada en forma de arco para atacar al enemigo con un corte diagonal descendente."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Ola de Llamas Ardientes",
+                "descripcion": "El usuario realizar uno o múltiples cortes en un movimiento circular fluido, sirviendo como defensa contra ataques entrantes y permitiendo decapitar a varios oponentes."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Tigre de Fuego",
+                "descripcion": "El usuario se lanza hacia adelante, llevando su espada a una guardia alta y llevando a cabo una serie de cortes que forman la imagen de un tigre en llamas que rodea al usuario."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "septima_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "octava_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "novena_postura",
+                "nombre": "Purgatorio",
+                "descripcion": "el usuario asuma una postura elevada antes de realizar una carrera a gran velocidad hacia el objetivo y desatar un corte singular y devastador. Esta técnica es capaz de excavar el suelo a su paso."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-
     {
         "_id": 7,
         "respiracion": "Respiracion De la Niebla",
-        "primera_postura": {
-            "nombre": "Cielo colgante,Neblina distante",
-            "descripcion": "El usuario ejecuta un ataque frontal singular y potente."
-        },
-        "segunda_postura": {
-            "nombre": "Capas de neblina",
-            "descripcion": "El usuario lleva a cabo ocho cortes en rápida sucesión."
-        },
-        "tercera_postura": {
-            "nombre": "Ráfaga de desempañamiento",
-            "descripcion": "El usuario realiza un corte circular, poderoso y veloz, capaz de desviar los proyectiles que se dirigen hacia él."
-        },
-        "cuarta_porstura": {
-            "nombre": "Corte de advección",
-            "descripcion": "El usuario adopta una postura baja antes de lanzarse hacia su objetivo y cortarlo con precisión."
-        },
-        "quinta_postura": {
-            "nombre": "Mar de neblina",
-            "descripcion": "El usuario carga a velocidades vertiginosas hacia su objetivo, realizando un movimiento en zigzag mientras desata una ráfaga continua de cortes tanto al frente como a su alrededor."
-        },
-        "sexta_postura": {
-            "nombre": "Niebla luz de luna",
-            "descripcion": "El usuario salta en el aire y, con una voltereta, ejecuta una serie de cortes que pueden diezmar a decenas de oponentes simultáneamente."
-        },
-        "septima_postura": {
-            "nombre": "Neblina",
-            "descripcion": "está basada en el movimiento con el propósito de desorientar profundamente al objetivo, fluctuando el ritmo del usuario. Al aparecer frente al oponente, el usuario se mueve de manera extremadamente lenta, para luego acelerar a velocidades deslumbrantes antes de impactar, dando la ilusión de haber desaparecido en una nube de niebla. Al repetir este movimiento, puede desorientar al enemigo hasta hacerlo creer que está rodeado por una densa capa de niebla."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Cielo colgante,Neblina distante",
+                "descripcion": "El usuario ejecuta un ataque frontal singular y potente."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Capas de neblina",
+                "descripcion": "El usuario lleva a cabo ocho cortes en rápida sucesión."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Ráfaga de desempañamiento",
+                "descripcion": "El usuario realiza un corte circular, poderoso y veloz, capaz de desviar los proyectiles que se dirigen hacia él."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Corte de advección",
+                "descripcion": "El usuario adopta una postura baja antes de lanzarse hacia su objetivo y cortarlo con precisión."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Mar de neblina",
+                "descripcion": "El usuario carga a velocidades vertiginosas hacia su objetivo, realizando un movimiento en zigzag mientras desata una ráfaga continua de cortes tanto al frente como a su alrededor."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Niebla luz de luna",
+                "descripcion": "El usuario salta en el aire y, con una voltereta, ejecuta una serie de cortes que pueden diezmar a decenas de oponentes simultáneamente."
+            },
+            {
+                "numero": "septima_postura",
+                "nombre": "Neblina",
+                "descripcion": "está basada en el movimiento con el propósito de desorientar profundamente al objetivo, fluctuando el ritmo del usuario. Al aparecer frente al oponente, el usuario se mueve de manera extremadamente lenta, para luego acelerar a velocidades deslumbrantes antes de impactar, dando la ilusión de haber desaparecido en una nube de niebla. Al repetir este movimiento, puede desorientar al enemigo hasta hacerlo creer que está rodeado por una densa capa de niebla."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-
     {
         "_id": 8,
         "respiracion": "Respiracion Del Amor",
-        "primera_postura": {
-            "nombre": "Escalofríos del Primer Amor",
-            "descripcion": "La usuaria se lanza hacia adelante y ejecuta un único corte serpenteante que impacta varias áreas del objetivo con un solo movimiento."
-        },
-        "segunda_postura": {
-            "nombre": "Amor Angustiante",
-            "descripcion": "La usuaria realiza un largo y único movimiento, similar al de un látigo, que corta al objetivo desde múltiples ángulos."
-        },
-        "tercera_postura": {
-            "nombre": "Lluvia de Gatitos Adorables/Amorosos ",
-            "descripcion": "La usuaria salta en el aire y realiza una serie de cortes arqueados en rápida sucesión."
-        },
-        "cuarta_porstura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "quinta_postura": {
-            "nombre": "Lazo ondulante",
-            "descripcion": " La usuaria salta al aire, realiza un salto mortal y lanza una ráfaga de cortes rápidos y ondulantes a distancia, creando un tornado de cortes."
-        },
-        "sexta_postura": {
-            "nombre": "Brisa Amorosa De Patas De Gatito",
-            "descripcion": "La usuaria extiende completamente su espada para realizar un corte en arco, luego la retrae y la extiende nuevamente en rápida sucesión, generando una serie de cortes superpuestos."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Escalofríos del Primer Amor",
+                "descripcion": "La usuaria se lanza hacia adelante y ejecuta un único corte serpenteante que impacta varias áreas del objetivo con un solo movimiento."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Amor Angustiante",
+                "descripcion": "La usuaria realiza un largo y único movimiento, similar al de un látigo, que corta al objetivo desde múltiples ángulos."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Lluvia de Gatitos Adorables/Amorosos ",
+                "descripcion": "La usuaria salta en el aire y realiza una serie de cortes arqueados en rápida sucesión."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Lazo ondulante",
+                "descripcion": " La usuaria salta al aire, realiza un salto mortal y lanza una ráfaga de cortes rápidos y ondulantes a distancia, creando un tornado de cortes."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Brisa Amorosa De Patas De Gatito",
+                "descripcion": "La usuaria extiende completamente su espada para realizar un corte en arco, luego la retrae y la extiende nuevamente en rápida sucesión, generando una serie de cortes superpuestos."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-
-
     {
         "_id": 9,
         "respiracion": "Respiracion De la Serpiente",
-        "primera_postura": {
-            "nombre": "Corte de serpiente retorcida",
-            "descripcion": "El usuario ejecuta un corte frontal horizontal único, dirigido hacia su objetivo, con un movimiento ondulante."
-        },
-        "segunda_postura": {
-            "nombre": "Colmillo venenoso de serpiente pequeña",
-            "descripcion": "El usuario se desplaza detrás de su oponente a una velocidad deslumbrante, buscando decapitarlo rápidamente desde atrás."
-        },
-        "tercera_postura": {
-            "nombre": "Espiral de serpiente inmovilizadora ",
-            "descripcion": "El usuario rodea a su oponente mientras utiliza su espada para atacarlo desde múltiples direcciones."
-        },
-        "cuarta_porstura": {
-            "nombre": "Cabezas de serpientes gemelas",
-            "descripcion": "El usuario avanza con un salto hacia adelante y realiza un corte horizontal que atraviesa al objetivo."
-        },
-        "quinta_postura": {
-            "nombre": "Serpiente deslizante",
-            "descripcion": "El usuario se desplaza con un movimiento sinuoso y giratorio, curvando su espada en varias direcciones para impactar a múltiples objetivos simultáneamente. Esta técnica es capaz de decapitar a varios enemigos en un solo ataque."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Corte de serpiente retorcida",
+                "descripcion": "El usuario ejecuta un corte frontal horizontal único, dirigido hacia su objetivo, con un movimiento ondulante."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Colmillo venenoso de serpiente pequeña",
+                "descripcion": "El usuario se desplaza detrás de su oponente a una velocidad deslumbrante, buscando decapitarlo rápidamente desde atrás."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Espiral de serpiente inmovilizadora ",
+                "descripcion": "El usuario rodea a su oponente mientras utiliza su espada para atacarlo desde múltiples direcciones."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Cabezas de serpientes gemelas",
+                "descripcion": "El usuario avanza con un salto hacia adelante y realiza un corte horizontal que atraviesa al objetivo."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Serpiente deslizante",
+                "descripcion": "El usuario se desplaza con un movimiento sinuoso y giratorio, curvando su espada en varias direcciones para impactar a múltiples objetivos simultáneamente. Esta técnica es capaz de decapitar a varios enemigos en un solo ataque."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
     {
         "_id": 10,
         "respiracion": "Respiracion Del Sonido",
-        "primera_postura": {
-            "nombre": "Rugido",
-            "descripcion": "El Usuario levanta sus espadas gemelas por encima de su cabeza y las golpea con gran fuerza mientras simultáneamente crea una explosión con sus bombas, causando un fuerte sonido parecido a un trueno."
-        },
-        "segunda_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "tercera_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "cuarta_porstura": {
-            "nombre": "Sentencia de muerte de Avici",
-            "descripcion": "El usuario con sus dos espadas lanza una tormenta de cortes mientras que lanza unas bombas creando a su vez una barrera defensiva."
-        },
-        "quinta_postura": {
-            "nombre": "Sinfonía de cuerdas estruendosas",
-            "descripcion": "El usuario sostiene una de sus espadas con un agarre inverso y hace girar la otra usando la cadena que las conecta. Él combina esto al lanzar también numerosas bombas para detonar."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Rugido",
+                "descripcion": "El Usuario levanta sus espadas gemelas por encima de su cabeza y las golpea con gran fuerza mientras simultáneamente crea una explosión con sus bombas, causando un fuerte sonido parecido a un trueno."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Sentencia de muerte de Avici",
+                "descripcion": "El usuario con sus dos espadas lanza una tormenta de cortes mientras que lanza unas bombas creando a su vez una barrera defensiva."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Sinfonía de cuerdas estruendosas",
+                "descripcion": "El usuario sostiene una de sus espadas con un agarre inverso y hace girar la otra usando la cadena que las conecta. Él combina esto al lanzar también numerosas bombas para detonar."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-
     {
         "_id": 11,
         "respiracion": "Respiracion Del Viento",
-        "primera_postura": {
-            "nombre": "Torbellino de polvo",
-            "descripcion": "El usuario se desplaza a una velocidad asombrosa, ejecutando cortes continuos en un patrón ciclónico horizontal."
-        },
-        "segunda_postura": {
-            "nombre": "Garras de viento purificador",
-            "descripcion": "El usuario eleva la espada hacia la derecha, por encima de su cabeza, y realiza simultáneamente cuatro cortes verticales hacia abajo, que asemejan garras al descender sobre el enemigo."
-        },
-        "tercera_postura": {
-            "nombre": "Árbol balanceándose en el aire de Tormenta",
-            "descripcion": "El usuario genera un torbellino de cortes a su alrededor, lo que le permite defenderse de los ataques entrantes y destrozar su entorno."
-        },
-        "cuarta_porstura": {
-            "nombre": "Tormenta de Polvo Ascendente",
-            "descripcion": "El usuario lanza múltiples cortes en forma de torbellino desde una posición baja, dirigiéndose hacia arriba, por encima de su objetivo."
-        },
-        "quinta_postura": {
-            "nombre": "Vendaval de invierno",
-            "descripcion": "El usuario crea varios cortes arqueados en forma circular que aumentan de tamaño desde una posición elevada sobre su objetivo."
-        },
-        "sexta_postura": {
-            "nombre": "Tormenta de humo negro",
-            "descripcion": "El usuario gira su cuerpo en un movimiento de uppercut, produciendo un corte en arco."
-        },
-        "septima_postura": {
-            "nombre": "Vendaval - Ráfaga Repentina",
-            "descripcion": "El usuario salta en el aire mientras balancea su espada, lo que genera vientos huracanados que devastan a su oponente."
-        },
-        "octava_postura": {
-            "nombre": "Primer corte vendaval",
-            "descripcion": "El usuario salta en el aire y agita su espada, generando torrentes circulares de viento que cortan instantáneamente a su oponente."
-        },
-        "novena_postura": {
-            "nombre": "Tifón peligroso",
-            "descripcion": "El usuario realiza una voltereta hacia atrás en el aire y, estando boca abajo, desata una potente ráfaga de viento circular que corta todo lo que se encuentra a su paso."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Torbellino de polvo",
+                "descripcion": "El usuario se desplaza a una velocidad asombrosa, ejecutando cortes continuos en un patrón ciclónico horizontal."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Garras de viento purificador",
+                "descripcion": "El usuario eleva la espada hacia la derecha, por encima de su cabeza, y realiza simultáneamente cuatro cortes verticales hacia abajo, que asemejan garras al descender sobre el enemigo."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Árbol balanceándose en el aire de Tormenta",
+                "descripcion": "El usuario genera un torbellino de cortes a su alrededor, lo que le permite defenderse de los ataques entrantes y destrozar su entorno."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Tormenta de Polvo Ascendente",
+                "descripcion": "El usuario lanza múltiples cortes en forma de torbellino desde una posición baja, dirigiéndose hacia arriba, por encima de su objetivo."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Vendaval de invierno",
+                "descripcion": "El usuario crea varios cortes arqueados en forma circular que aumentan de tamaño desde una posición elevada sobre su objetivo."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Tormenta de humo negro",
+                "descripcion": "El usuario gira su cuerpo en un movimiento de uppercut, produciendo un corte en arco."
+            },
+            {
+                "numero": "septima_postura",
+                "nombre": "Vendaval - Ráfaga Repentina",
+                "descripcion": "El usuario salta en el aire mientras balancea su espada, lo que genera vientos huracanados que devastan a su oponente."
+            },
+            {
+                "numero": "octava_postura",
+                "nombre": "Primer corte vendaval",
+                "descripcion": "El usuario salta en el aire y agita su espada, generando torrentes circulares de viento que cortan instantáneamente a su oponente."
+            },
+            {
+                "numero": "novena_postura",
+                "nombre": "Tifón peligroso",
+                "descripcion": "El usuario realiza una voltereta hacia atrás en el aire y, estando boca abajo, desata una potente ráfaga de viento circular que corta todo lo que se encuentra a su paso."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-
     {
         "_id": 12,
         "respiracion": "Respiracion De la Roca",
-        "primera_postura": {
-            "nombre": "Hidra de serpentinita",
-            "descripcion": "El usuario lanza tanto el mayal como el hacha hacia su objetivo, manipulando la cadena para hacer que ambas armas giren, lo que permite que el hacha y el mayal perforen y trituren al objetivo."
-        },
-        "segunda_postura": {
-            "nombre": "Rotura de la superficie celestial",
-            "descripcion": "El usuario arroja simultáneamente el hacha y el mayal con púas en un movimiento de pinza, para luego golpear la cadena, provocando que el mayal rebote y se estrelle contra el objetivo desde una distancia."
-        },
-        "tercera_postura": {
-            "nombre": "Reflejo ígneo",
-            "descripcion": "El usuario gira rápidamente y balancea la cadena a su alrededor, desatando una ráfaga de ataques en todas direcciones con el mayal y el hacha. Esta técnica también puede utilizarse para bloquear y contrarrestar los ataques enemigos provenientes de cualquier dirección."
-        },
-        "cuarta_porstura": {
-            "nombre": "Conquista rápida",
-            "descripcion": "El usuario manipula el mayal y el hacha en ambos extremos de la cadena, balanceándola en ambas direcciones para lanzar un ataque de amplio alcance y doble impacto contra sus oponentes."
-        },
-        "quinta_postura": {
-            "nombre": "Rueda de piedra firme",
-            "descripcion": "El usuario ejecuta un potente bombardeo con el mayal y el hacha, infligiendo un daño considerable. El ataque comienza con el hacha, seguida inmediatamente por la trayectoria del mayal desde el lado opuesto, que golpea al oponente."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Hidra de serpentinita",
+                "descripcion": "El usuario lanza tanto el mayal como el hacha hacia su objetivo, manipulando la cadena para hacer que ambas armas giren, lo que permite que el hacha y el mayal perforen y trituren al objetivo."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Rotura de la superficie celestial",
+                "descripcion": "El usuario arroja simultáneamente el hacha y el mayal con púas en un movimiento de pinza, para luego golpear la cadena, provocando que el mayal rebote y se estrelle contra el objetivo desde una distancia."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Reflejo ígneo",
+                "descripcion": "El usuario gira rápidamente y balancea la cadena a su alrededor, desatando una ráfaga de ataques en todas direcciones con el mayal y el hacha. Esta técnica también puede utilizarse para bloquear y contrarrestar los ataques enemigos provenientes de cualquier dirección."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Conquista rápida",
+                "descripcion": "El usuario manipula el mayal y el hacha en ambos extremos de la cadena, balanceándola en ambas direcciones para lanzar un ataque de amplio alcance y doble impacto contra sus oponentes."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Rueda de piedra firme",
+                "descripcion": "El usuario ejecuta un potente bombardeo con el mayal y el hacha, infligiendo un daño considerable. El ataque comienza con el hacha, seguida inmediatamente por la trayectoria del mayal desde el lado opuesto, que golpea al oponente."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
     {
         "_id": 13,
         "respiracion": "Respiracion De Lunar",
-        "primera_postura": {
-            "nombre": "Luna Oscura: Vigilia de festival",
-            "descripcion": "Kokushibo desenvaina su katana y ejecuta un único corte horizontal en forma de medialuna, generando numerosas hojas caóticas con esta misma forma a lo largo de su trayectoria, para luego volver a enfundar su espada."
-        },
-        "segunda_postura": {
-            "nombre": "Contemplación de la Luna con flores",
-            "descripcion": "realiza tres cortes en forma de medialuna, liberando una multitud de hojas con la misma forma en cada uno de ellos."
-        },
-        "tercera_postura": {
-            "nombre": "Luna de odio: Cadenas",
-            "descripcion": "lleva a cabo dos cortes amplios en forma de media luna frente a él, provocando una tormenta de hojas más pequeñas con la misma forma."
-        },
-        "cuarta_porstura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "quinta_postura": {
-            "nombre": "Calamidad del espíritu lunar",
-            "descripcion": "ejecuta múltiples cortes largos y curvados, superpuestos entre sí, creando un vórtice de hojas en forma de medialuna."
-        },
-        "sexta_postura": {
-            "nombre": "Luna solitaria en la noche perpetua: infierno eterno",
-            "descripcion": "realiza rápidamente numerosos cortes curvos a varios metros de distancia, generando una descarga salvaje de cuchillas en forma de medialuna capaces de atravesar el entorno."
-        },
-        "septima_postura": {
-            "nombre": "Espejo maligno: luz de luna",
-            "descripcion": "efectúa un corte frontal en forma de medialuna que libera numerosos cortes rectos y curvados que se expanden hacia afuera."
-        },
-        "octava_postura": {
-            "nombre": "Cola enroscada del dragón lunar",
-            "descripcion": "ejecuta un corte curvo masivo de largo alcance, dejando a su paso docenas de cuchillas en forma de medialuna."
-        },
-        "novena_postura": {
-            "nombre": "Luna menguante: múltiples caras",
-            "descripcion": "o realiza múltiples cortes curvos, todos muy próximos entre sí, que generan numerosas cuchillas en forma de medialuna a lo largo de su trayectoria."
-        },
-        "decima_postura": {
-            "nombre": "Corte perforador: luna entre hiedras",
-            "descripcion": "crea tres cortes circulares giratorios en forma de sierra, con cuchillas en forma de medialuna siguiendo su recorrido."
-        },
-        "undecima_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "decimo_segunda_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "decimo_tercera_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "decimo_cuarta_postura": {
-            "nombre": "Catástrofe: luna creciente",
-            "descripcion": "realiza una serie de cortes curvos que se expanden en todas las direcciones, aumentando gradualmente de tamaño y formando un vórtice omnidireccional de cuchillas en forma de medialuna que lo rodean."
-        },
-        "decimo_quinta_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "decimo_sexta_postura": {
-            "nombre": "Arcoíris lunar: media luna",
-            "descripcion": "se lanza hacia arriba, generando seis cortes curvos que impactan varios metros frente a él, lo suficientemente poderosos como para crear cráteres en su camino."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "Luna Oscura: Vigilia de festival",
+                "descripcion": "Kokushibo desenvaina su katana y ejecuta un único corte horizontal en forma de medialuna, generando numerosas hojas caóticas con esta misma forma a lo largo de su trayectoria, para luego volver a enfundar su espada."
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Contemplación de la Luna con flores",
+                "descripcion": "realiza tres cortes en forma de medialuna, liberando una multitud de hojas con la misma forma en cada uno de ellos."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "Luna de odio: Cadenas",
+                "descripcion": "lleva a cabo dos cortes amplios en forma de media luna frente a él, provocando una tormenta de hojas más pequeñas con la misma forma."
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Calamidad del espíritu lunar",
+                "descripcion": "ejecuta múltiples cortes largos y curvados, superpuestos entre sí, creando un vórtice de hojas en forma de medialuna."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Luna solitaria en la noche perpetua: infierno eterno",
+                "descripcion": "realiza rápidamente numerosos cortes curvos a varios metros de distancia, generando una descarga salvaje de cuchillas en forma de medialuna capaces de atravesar el entorno."
+            },
+            {
+                "numero": "septima_postura",
+                "nombre": "Espejo maligno: luz de luna",
+                "descripcion": "efectúa un corte frontal en forma de medialuna que libera numerosos cortes rectos y curvados que se expanden hacia afuera."
+            },
+            {
+                "numero": "octava_postura",
+                "nombre": "Cola enroscada del dragón lunar",
+                "descripcion": "ejecuta un corte curvo masivo de largo alcance, dejando a su paso docenas de cuchillas en forma de medialuna."
+            },
+            {
+                "numero": "novena_postura",
+                "nombre": "Luna menguante: múltiples caras",
+                "descripcion": "o realiza múltiples cortes curvos, todos muy próximos entre sí, que generan numerosas cuchillas en forma de medialuna a lo largo de su trayectoria."
+            },
+            {
+                "numero": "decima_postura",
+                "nombre": "Corte perforador: luna entre hiedras",
+                "descripcion": "crea tres cortes circulares giratorios en forma de sierra, con cuchillas en forma de medialuna siguiendo su recorrido."
+            },
+            {
+                "numero": "decimo_primera_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "decimo_segunda_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "decimo_tercer_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "decimo_cuarta_postura",
+                "nombre": "Catástrofe: luna creciente",
+                "descripcion": "realiza una serie de cortes curvos que se expanden en todas las direcciones, aumentando gradualmente de tamaño y formando un vórtice omnidireccional de cuchillas en forma de medialuna que lo rodean."
+            },
+            {
+                "numero": "decimo_quinta_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "decimo_sexta_postura",
+                "nombre": "Arcoíris lunar: media luna",
+                "descripcion": "se lanza hacia arriba, generando seis cortes curvos que impactan varios metros frente a él, lo suficientemente poderosos como para crear cráteres en su camino."
+            }
+        ],
+        "anime": "demon slayer"
     },
-
-
-
-    
     {
         "_id": 14,
         "respiracion": "Respiracion De la Flor",
-        "primera_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "segunda_postura": {
-            "nombre": "Sombra honorable de la ciruela",
-            "descripcion": " El usuario ejecuta varios cortes giratorios con su espada, desviando los ataques físicos que se le dirigen."
-        },
-        "tercera_postura": {
-            "nombre": "desconocido",
-            "descripcion": "desconocido"
-        },
-        "cuarta_porstura": {
-            "nombre": "Hanagoromo Carmesí",
-            "descripcion": "El usuario realiza un único corte de espada que se curva y retuerce con elegancia."
-        },
-        "quinta_postura": {
-            "nombre": "Peonias de la Futilidad",
-            "descripcion": "El usuario desata una serie de nueve ataques consecutivos que fluyen y se entrelazan armoniosamente."
-        },
-        "sexta_postura": {
-            "nombre": "Melocotón giratorio",
-            "descripcion": "Esta técnica se utiliza tras o durante una evasión, en la cual el usuario gira aprovechando el peso de su cuerpo para lanzar un ataque."
-        },
-        "postura_final": {
-            "nombre": "Ojos de lirio de araña escarlata",
-            "descripcion": "Una técnica de concentración que agudiza al máximo la visión cinética del usuario, permitiéndole percibir el entorno como si se moviera en cámara lenta. Sin embargo, su uso es extremadamente peligroso, ya que la enorme tensión ejercida sobre los ojos puede causar la rotura de vasos sanguíneos, lo que podría derivar en ceguera parcial o total."
-        }
+        "posturas": [
+            {
+                "numero": "primera_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "segunda_postura",
+                "nombre": "Sombra honorable de la ciruela",
+                "descripcion": " El usuario ejecuta varios cortes giratorios con su espada, desviando los ataques físicos que se le dirigen."
+            },
+            {
+                "numero": "tercera_postura",
+                "nombre": "desconocido",
+                "descripcion": "desconocido"
+            },
+            {
+                "numero": "cuarta_postura",
+                "nombre": "Hanagoromo Carmesí",
+                "descripcion": "El usuario realiza un único corte de espada que se curva y retuerce con elegancia."
+            },
+            {
+                "numero": "quinta_postura",
+                "nombre": "Peonias de la Futilidad",
+                "descripcion": "El usuario desata una serie de nueve ataques consecutivos que fluyen y se entrelazan armoniosamente."
+            },
+            {
+                "numero": "sexta_postura",
+                "nombre": "Melocotón giratorio",
+                "descripcion": "Esta técnica se utiliza tras o durante una evasión, en la cual el usuario gira aprovechando el peso de su cuerpo para lanzar un ataque."
+            },
+            {
+                "numero": "postura_final",
+                "nombre": "Ojos de lirio de araña escarlata",
+                "descripcion": "Una técnica de concentración que agudiza al máximo la visión cinética del usuario, permitiéndole percibir el entorno como si se moviera en cámara lenta. Sin embargo, su uso es extremadamente peligroso, ya que la enorme tensión ejercida sobre los ojos puede causar la rotura de vasos sanguíneos, lo que podría derivar en ceguera parcial o total."
+            }
+        ],
+        "anime": "demon slayer"
     }
 ]

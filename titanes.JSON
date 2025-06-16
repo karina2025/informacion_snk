@@ -2,6 +2,7 @@
     {
     "_id": 1,
     "anime": "ataque a los titanes",
+    "titan": "Titan Fundador",
     "portador": "Ymir Fritz",
     "habilidades": ["regeneración", "resistencia", "poder especial fundador"],
     "origen": "Eldia",
@@ -9,8 +10,9 @@
     "transformaciones": 1
  },
 {
-    "_id": 1,
+    "_id": 2,
     "anime": "ataque a los titanes",
+    "titan": "Titan de ataque",
     "portador": "Eren Yeager",
     "habilidades": ["regeneración", "resistencia", "poder especial ataque"],
     "origen": "Eldia",
@@ -18,8 +20,9 @@
     "transformaciones": 1
   },
   {
-    "_id": 1,
+    "_id": 3,
     "anime": "ataque a los titanes",
+    "titan": "Titan Colosal",
     "portador": "Armin Arlert",
     "habilidades": ["regeneración", "resistencia", "poder especial colosal"],
     "origen": "Eldia",
@@ -27,8 +30,9 @@
     "transformaciones": 1
   },
   {
-    "_id": 1,
+    "_id": 4,
     "anime": "ataque a los titanes",
+    "titan": "Titan Martillo",
     "portador": "Lara Tybur",
     "habilidades": ["regeneración", "resistencia", "poder especial martillo"],
     "origen": "Eldia",
@@ -36,8 +40,9 @@
     "transformaciones": 1
   },
   {
-    "_id": 1,
+    "_id": 5,
     "anime": "ataque a los titanes",
+    "titan": "Titan Bestia",
     "portador": "Zeke Yeager",
     "habilidades": ["regeneración", "resistencia", "poder especial bestia"],
     "origen": "Eldia",
@@ -45,8 +50,9 @@
     "transformaciones": 1
   },
   {
-    "_id": 1,
+    "_id": 6,
     "anime": "ataque a los titanes",
+    "titan": "Titan Hembra",
     "portador": "Annie Leonhart",
     "habilidades": ["regeneración", "resistencia", "poder especial hembra"],
     "origen": "Eldia",
@@ -54,8 +60,9 @@
     "transformaciones": 1
   },
   {
-    "_id": 1,
+    "_id": 7,
     "anime": "ataque a los titanes",
+    "titan": "Titan Acorasado",
     "portador": "Reiner Braun",
     "habilidades": ["regeneración", "resistencia", "poder especial acorazado"],
     "origen": "Eldia",
@@ -63,8 +70,9 @@
     "transformaciones": 1
   },
   {
-    "_id": 1,
+    "_id": 8,
     "anime": "ataque a los titanes",
+    "titan": "Titan Mandibula",
     "portador": "Porco Galliard",
     "habilidades": ["regeneración", "resistencia", "poder especial mandibula"],
     "origen": "Eldia",
@@ -72,8 +80,9 @@
     "transformaciones": 1
   },
   {
-    "_id": 1,
+    "_id": 9,
     "anime": "ataque a los titanes",
+    "titan": "Titan Carguero",
     "portador": "Pieck Finger",
     "habilidades": ["regeneración", "resistencia", "poder especial carreta"],
     "origen": "Eldia",
