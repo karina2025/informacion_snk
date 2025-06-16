@@ -51,3 +51,151 @@ Para importar los datos en MongoDB Compass o Atlas, sigue estos pasos:
 | cazadores.json         | cazadores         |
 | demonios.json          | demonios          |
 | respiraciones.json     | respiraciones     |
+
+## Consultas Regulares
+
+# 1. Consulta para buscar Eldianos que empiecen con "Eren"
+
+```javascript
+db.Eldianos.find({ "nombre": { "$regex": "^Eren" } })
+```
+
+Este método de consulta sirve para buscar a todos los documentos en la colección Eldianos cuyo campo nombre comience con "Eren".
+En este caso, solo devolverá al protagonista, ya que su nombre empieza exactamente así.
+
+# 2. Consulta para buscar Eldianos cuyo estado termine en "muerto"
+
+```javascript
+db.Eldianos.find({ 
+  "estado": { 
+    "$regex": "^muert[oa]$", 
+    "$options": "i"  
+  } 
+})
+```
+
+Este método de consulta sirve para buscar a todos los documentos en la colección Eldianos cuyo campo estado termine exactamente en "muerto o muerta".
+
+# 3. Consulta para buscar Eldianos afiliados al grupo de exploradores
+
+```javascript
+db.Eldianos.find({ "afiliacion": { "$regex": ".*ploradores" } })
+```
+
+Este método de búsqueda sirve para encontrar a todos los documentos en la colección Eldianos cuyo campo afiliacion contenga la palabra "exploradores" o cualquier variante que termine en "ploradores".
+
+# 4. Consulta para buscar Eldianos con rol de protagonista
+
+```javascript
+db.Eldianos.find({ "rol": { "$regex": "protagonista" } })
+```
+
+Este método de búsqueda sirve para encontrar a todos los documentos en la colección Eldianos cuyo campo rol contenga la palabra "protagonista".
+
+# 5. Consulta para buscar Eldianos que vivieron en murallas cuya inicial esté entre la M y la R
+
+```javascript
+db.Eldianos.find({ "muralla": { "$regex": "^[M-R]" } })
+```
+
+Este método de consulta sirve para encontrar solo a los documentos en la colección Eldianos cuyo campo muralla comienza con una letra entre la M y la R.
+Este filtro ignora murallas como "Zina", ya que su inicial no está dentro del rango especificado.
+
+# 6. Consulta para buscar Titanes cuyo nombre comienza por "C"
+
+```javascript
+db.Titanes.find({ "titan": { "$regex": "C..." } })
+```
+
+Este método de consulta sirve para buscar a todos los documentos en la colección Titanes cuyo campo titan comience con la letra "C" y tenga al menos tres caracteres más, sin importar cuáles sean.
+
+# 7. Consulta para buscar Titanes cuyo estado sea exactamente "activo"
+
+```javascript
+db.Titanes.find({ "estado": { "$regex": "^activo$" } })
+```
+
+Este método de consulta sirve para buscar a todos los documentos en la colección Titanes cuyo campo estado sea exactamente "activo".
+
+# 8. Consulta para buscar Titanes con la habilidad especial de "fundador"
+
+```javascript
+db.Titanes.find({ "habilidades": { "$regex": "fundador", "$options": "i" } })
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Titanes cuyo campo habilidades contenga la palabra "fundador", sin importar si está en mayúsculas o minúsculas.
+
+# 9. Consulta para buscar Titanes cuyo origen sea exactamente "Eldia"
+
+```javascript
+db.Titanes.find({ "origen": { "$regex": "^Eldia$" } })
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Titanes cuyo campo origen sea exactamente "Eldia".
+Ignora a los titanes cuyo origen sea "Marley" o cualquier otra variación.
+
+# 10. Consulta para buscar Titanes con habilidades que terminan en "cia"
+
+```javascript
+db.Titanes.find({ "habilidades": { "$regex": ".*cia$" } })
+```
+
+Este método de consulta sirve para buscar a todos los documentos en la colección Titanes cuyo campo habilidades termine en la palabra "cia", como en "resistencia".
+Ignora por completo a los titanes que no tienen habilidades con esa terminación.
+
+# 11. Consulta para buscar Cazadores cuyos nombres comienzan por la letra "T"
+
+```javascript
+db.Cazadores.find({ "nombre": { "$regex": "T...." } })
+```
+
+Este método de consulta sirve para buscar a todos los documentos en la colección Cazadores cuyo campo nombre o segundo nombre comience con la letra "T" y tenga al menos cuatro caracteres más.
+
+# 12. Consulta para buscar Cazadores con técnica de respiración que comience por "Respiracion" y luego una palabra que comience con "S"
+
+```javascript
+db.Cazadores.find({
+  "Tenica": {
+    "$regex": "^Respiracion.*\\s[Ss]",
+    "$options": "i"
+  }
+})
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Cazadores cuyo campo Tenica (técnica) empiece con la palabra "Respiracion" y luego tenga otra palabra que comience con la letra "S" (mayúscula o minúscula).
+
+
+# 13. Consulta para buscar Cazadores cuyo estado sea "vivo"
+
+```javascript
+db.Cazadores.find({ "estado": { "$regex": "vivo$" } })
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Cazadores cuyo campo estado termina en "vivo", es decir, aquellos que aún siguen con vida 😢.
+
+# 14. Consulta para buscar Cazadores cuyo rango termine en "lar"
+
+```javascript
+db.Cazadores.find({ "rango": { "$regex": ".*lar$" } })
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Cazadores cuyo campo rango termine en "lar", como por ejemplo "Pilar".
+
+
+# Consulta para buscar Cazadores cuyo rango comience entre A y H
+
+```javascript
+db.Cazadores.find({ "rango": { "$regex": "^[A-H].*" } })
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Cazadores cuyo campo rango empiece por una letra entre la A y la H, según el orden alfabético.
+
+
+
+
+
+
+
+
+
+
