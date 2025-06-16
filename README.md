@@ -47,7 +47,7 @@ Para importar los datos en MongoDB Compass o Atlas, sigue estos pasos:
 | Archivo JSON           | Colección MongoDB |
 |----------------------- |-------------------|
 | titanes.json           | titanes           |
-| aldeanos.json          | aldeanos          |
+| eldianos.json          | eldianos          |
 | cazadores.json         | cazadores         |
 | demonios.json          | demonios          |
 | respiraciones.json     | respiraciones     |
