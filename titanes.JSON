@@ -1,5 +1,5 @@
 [
-    {
+  {
     "_id": 1,
     "anime": "ataque a los titanes",
     "titan": "Titan Fundador",
@@ -7,9 +7,16 @@
     "habilidades": ["regeneración", "resistencia", "poder especial fundador"],
     "origen": "Eldia",
     "estado": "activo",
+<<<<<<< HEAD
     "transformaciones": 1
  },
 {
+=======
+    "transformaciones": 1,
+    "titan": "fundador"
+  },
+  {
+>>>>>>> e6b2e481ba77bbb9462e29c30420c255e90d2bf5
     "_id": 2,
     "anime": "ataque a los titanes",
     "titan": "Titan de ataque",
@@ -17,7 +24,8 @@
     "habilidades": ["regeneración", "resistencia", "poder especial ataque"],
     "origen": "Eldia",
     "estado": "activo",
-    "transformaciones": 1
+    "transformaciones": 1,
+    "titan": "ataque"
   },
   {
     "_id": 3,
@@ -27,7 +35,8 @@
     "habilidades": ["regeneración", "resistencia", "poder especial colosal"],
     "origen": "Eldia",
     "estado": "activo",
-    "transformaciones": 1
+    "transformaciones": 1,
+    "titan": "colosal"
   },
   {
     "_id": 4,
@@ -37,7 +46,8 @@
     "habilidades": ["regeneración", "resistencia", "poder especial martillo"],
     "origen": "Eldia",
     "estado": "activo",
-    "transformaciones": 1
+    "transformaciones": 1,
+    "titan": "martillo"
   },
   {
     "_id": 5,
@@ -47,7 +57,8 @@
     "habilidades": ["regeneración", "resistencia", "poder especial bestia"],
     "origen": "Eldia",
     "estado": "activo",
-    "transformaciones": 1
+    "transformaciones": 1,
+    "titan": "bestia"
   },
   {
     "_id": 6,
@@ -57,7 +68,8 @@
     "habilidades": ["regeneración", "resistencia", "poder especial hembra"],
     "origen": "Eldia",
     "estado": "activo",
-    "transformaciones": 1
+    "transformaciones": 1,
+    "titan": "hembra"
   },
   {
     "_id": 7,
@@ -67,7 +79,8 @@
     "habilidades": ["regeneración", "resistencia", "poder especial acorazado"],
     "origen": "Eldia",
     "estado": "activo",
-    "transformaciones": 1
+    "transformaciones": 1,
+    "titan": "acorazado"
   },
   {
     "_id": 8,
@@ -77,7 +90,8 @@
     "habilidades": ["regeneración", "resistencia", "poder especial mandibula"],
     "origen": "Eldia",
     "estado": "activo",
-    "transformaciones": 1
+    "transformaciones": 1,
+    "titan": "mandibula"
   },
   {
     "_id": 9,
@@ -87,8 +101,11 @@
     "habilidades": ["regeneración", "resistencia", "poder especial carreta"],
     "origen": "Eldia",
     "estado": "activo",
-    "transformaciones": 1
-  }]
+    "transformaciones": 1,
+    "titan": "carreta"
+  }
+]
+
   
   
   
