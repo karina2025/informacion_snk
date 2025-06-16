@@ -182,13 +182,136 @@ db.Cazadores.find({ "rango": { "$regex": ".*lar$" } })
 Este método de consulta sirve para encontrar a todos los documentos en la colección Cazadores cuyo campo rango termine en "lar", como por ejemplo "Pilar".
 
 
-# Consulta para buscar Cazadores cuyo rango comience entre A y H
+# 15. Consulta para buscar Cazadores cuyo rango comience entre A y H
 
 ```javascript
 db.Cazadores.find({ "rango": { "$regex": "^[A-H].*" } })
 ```
 
 Este método de consulta sirve para encontrar a todos los documentos en la colección Cazadores cuyo campo rango empiece por una letra entre la A y la H, según el orden alfabético.
+
+# 16. Consulta para buscar Demonios cuyo nombre comience por "Muzan"
+
+```javascript
+db.Demonios.find({ "nombre": { "$regex": "^Muzan" } })
+```
+
+Este método de consulta sirve para buscar a todos los documentos en la colección Demonios cuyo campo nombre comience exactamente por "Muzan".
+
+# 17. Consulta para buscar Demonios cuyo rol contenga la palabra "Demonio"
+
+```javascript
+db.Demonios.find({ "rol": { "$regex": "Demonio" } })
+```
+
+Este método de consulta sirve para buscar a todos los documentos en la colección Demonios cuyo campo rol contenga la palabra "Demonio" en cualquier parte del texto.
+
+
+# 18. Consulta para buscar Demonios que han vivido más de 100 años
+
+```javascript
+db.Demonios.find({ "años_vivo": { "$regex": "\\d{3,}" } })
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Demonios cuyo campo años_vivo contiene tres o más dígitos numéricos, es decir, demonios que han vivido 100 años o más.
+
+
+# 19. Consulta para buscar Demonios con habilidades que terminan en "za"
+
+```javascript
+db.Demonios.find({ "habilidades": { "$regex": ".*za$" } })
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Demonios cuyo campo habilidades termine en "za".
+
+# 20. Consulta para buscar Demonios cuyo estado sea exactamente "muerto"
+
+```javascript
+db.Demonios.find({ "estado": { "$regex": "^muerto$" } })
+```
+
+Este método de consulta sirve para encontrar a todos los documentos en la colección Demonios cuyo campo estado sea exactamente "muerto", sin permitir texto adicional antes ni después.
+
+
+# 21. Consulta para buscar una postura que contenga "Corte" dentro de una respiración
+
+```javascript
+db.Respiraciones.find(
+  { "posturas.nombre": { $regex: "Corte" } },
+  { "posturas.$": 1 }
+)
+```
+
+Este método de consulta sirve para encontrar una respiración que tenga al menos una postura cuyo nombre contenga la palabra "Corte", y solo mostrará esa postura específica que coincide.
+
+
+# 22. Consulta para buscar respiraciones con posturas cuya descripción mencione "dolor"
+
+```javascript
+db.Respiraciones.find({
+  posturas: {
+    $elemMatch: {
+      descripcion: { $regex: "dolor", $options: "i" }
+    }
+  }
+})
+```
+
+Este método de consulta sirve para encontrar todos los documentos en la colección Respiraciones que contengan al menos una postura cuya descripción mencione la palabra "dolor", sin importar si está en mayúscula o minúscula.
+
+
+# 23. Consulta para buscar respiraciones con posturas cuyo nombre comience por "R" y tenga al menos 4 letras
+
+```javascript
+db.Respiraciones.find({
+  posturas: {
+    $elemMatch: {
+      nombre: { $regex: "^R..." }
+    }
+  }
+})
+```
+
+Este método de consulta sirve para encontrar todos los documentos en la colección Respiraciones que contengan al menos una postura cuyo nombre empiece por la letra "R" y tenga un mínimo de 4 caracteres.
+
+
+# 24. Consulta para buscar respiraciones con posturas que comiencen por "S" o "s" seguida de una vocal
+
+```javascript
+db.Respiraciones.find({
+  posturas: {
+    $elemMatch: {
+      nombre: { $regex: "^[Ss][aeiou]" }
+    }
+  }
+})
+```
+
+Este método de consulta sirve para encontrar todos los documentos en la colección Respiraciones que tengan al menos una postura cuyo nombre comience por una "S" mayúscula o minúscula, seguida de una vocal (a, e, i, o, u).
+
+# 25. Consulta para mostrar nombres de posturas que comienzan por letras específicas
+
+```javascript
+db.Respiraciones.find(
+  { "posturas.nombre": { $regex: "^[A-HJSa-hjs]" } },
+  { "posturas.nombre": 1, _id: 0 }
+)
+```
+
+Este método de consulta sirve para mostrar los nombres de posturas dentro de la colección Respiraciones que comiencen por las letras A-H, J o S (mayúsculas o minúsculas).
+
+### Trabajo echo por
+
+- Manuel Larrotta Meneses
+- Karina Sanabria Casas
+
+
+
+
+
+
+
+
 
 
 
